@@ -1,0 +1,47 @@
+.container  {
+    border: 1px solid #a98787;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    align-items: flex-start;
+}
+
+.head  {
+    text-align: left;
+}
+
+.selCat  {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.larFont  {
+    font-size: 20px;
+}
+
+
+.btnBlue  {
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px 15px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.tabResult  {
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabResult  th, .tabResult  td  {
+    border-bottom: 1px solid #bfadad;
+    padding: 5px;
+    min-width: 110px;
+}
